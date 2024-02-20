@@ -1,0 +1,24 @@
+
+
+1. This document provides an overview of a React single-page application setup, including the    implementation of a responsive dashboard layout, product listing page, user preference saving, performance optimization, and testing. The application uses React Router for page navigation, Tailwi
+
+2.Dashboard Layout
+----------------------------
+The dashboard layout is developed using Tailwind CSS for styling. The layout consists of a header with a toggle button for switching between dark and light modes, and a main content area.
+
+3.The DashboardLayout component uses state to toggle between dark and light modes. The toggleDarkMode function switches the state between true and false when the toggle button is clicked.
+
+4.Product Listing Page
+--------------------------
+
+This section describes the development of the product listing page, including fetching product data from a mock API, displaying products in a grid layout with pagination, and implementing filters using React hooks.
+
+Fetching Product Data
+Product data is fetched from a mock API using fetch or axios library. Replace the API URL with the actual endpoint for fetching product data.
+
+5.The ProductCard component displays individual product details in a card format.
+
+6.Implementing Filters
+Filters such as price range and categories can be implemented using React hooks such as useState and useEffect to filter the products based on user selections
+
+7. favoraite items seclected is listed on favoraite page
